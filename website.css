@@ -1,0 +1,33 @@
+body{
+    font: Arial;
+}
+.book{
+    visibility:hidden;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+}
+.container > div{
+        border-width: 5px;
+        padding: 2px;
+        background-color: red;
+        border : 10px outset black;
+        text-align: center;
+        font-size:larger;
+        
+}
+.button{
+    background-color: white;
+    font-size: larger;
+}
+.button:hover{
+    background-color:  grey;
+}
+.image {
+    width: 150px;  
+    height: auto;  
+    border-radius: 5px; 
